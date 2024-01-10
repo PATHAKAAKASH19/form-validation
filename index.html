@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+  <title>sign-up-form</title>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <div class="left">
+      <div class="text">
+        <h1>learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time watching
+          scripted tutorials in great but understanding how developers think
+          is invaluable.
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <p class="upper">Try it free 7 days then $20/mo. thereafter</p>
+      <form id="form" method="get" action="/">
+        <div class="f1">
+          <input type="text" name="first-name" placeholder="First Name" autocomplete="on" id="firstname" />
+          <div class="error"></div>
+        </div>
+        <div class="f1">
+          <input type="text" name="last-name" placeholder="Last Name" autocomplete="on" id="lastname" />
+          <div class="error"></div>
+        </div>
+        <div class="f1">
+          <input type="text" name="email" placeholder="Email" autocomplete="on" id="email" />
+          <div class="error"></div>
+        </div>
+        <div class="f1">
+          <input type="password" name="password" placeholder="Password" autocomplete="on" id="password" />
+          <div class="error"></div>
+        </div>
+        <div class="f1">
+          <button type="submit">CLAIM YOUR FREE TRAIL</button>
+          <p class="info">
+            by clickimg the button, you are agreeing to our
+            <span>Terms and services</span>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
